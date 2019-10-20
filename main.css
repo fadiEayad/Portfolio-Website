@@ -1,0 +1,86 @@
+header {
+    background-color: #eeeeee;
+    color: red;
+    text-align: center;
+    padding: 7%;
+    font-family: 'Fascinate Inline', cursive;
+    letter-spacing: 0.05em;
+}
+
+footer {
+    background-color: #666666;
+    color: #eeeeee;
+    padding-top: 17px;
+    padding-bottom: 50px;
+}
+
+.alignLeft {
+    float: left;
+    padding-left: 8.75%;
+}
+
+.alignRight {
+    float: right;
+    padding-right: 11.25%;
+    word-spacing: 0.25em;
+}
+
+body {
+    background-color: #000000;
+}
+
+.profilePicture {
+    display: block;
+	width: 130px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #eee;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutMe {
+    padding: 10%;
+    background-color: #e8e8e8;
+}
+
+#resume {
+    padding: 10%;
+    background-color: #e2e2e2;
+}
+
+nav {
+    background-color: #222;
+}
+
+section {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    background-color: #e2e2e2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#aboutMeText {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    background-color: #e8e8e8;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.75;
+}
+
+div {
+    opacity: 0.75;
+}
+
+a.hoverWhite:hover {
+    color: #eeeeee;
+}
+
+a.hoverWhite {
+    color: #eeeeee;
+}
