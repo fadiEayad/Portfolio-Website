@@ -2,9 +2,28 @@ header {
     background-color: #eeeeee;
     color: red;
     text-align: center;
-    padding: 7%;
-    font-family: 'Fascinate Inline', cursive;
-    letter-spacing: 0.05em;
+    font-family: 'Trochut', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#headerID {
+    padding: 4%;
+    transition: 0.4s;
+}
+
+#topButton {
+    color: #eeeeee;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    padding-right: 0.6%;
+    padding-left: 0.6%;
 }
 
 footer {
@@ -26,7 +45,8 @@ footer {
 }
 
 body {
-    background-color: #000000;
+    background-color: #e8e8e8;
+    padding-top: 149px;
 }
 
 .profilePicture {
@@ -45,10 +65,30 @@ body {
     background-color: #e8e8e8;
 }
 
+#aboutMeHeader {
+    font-family: 'Trochut', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+#aboutMeText {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-top: 2.5%;
+    background-color: #e8e8e8;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.75;
+}
+
+#resumeHeader {
+    font-family: 'Trochut', sans-serif;
+    letter-spacing: 0.05em;
+}
+
 #resume {
     padding: 10%;
     background-color: #e2e2e2;
 }
+
 
 nav {
     background-color: #222;
@@ -63,24 +103,18 @@ section {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#aboutMeText {
-    padding-left: 3.5%;
-    padding-right: 3.5%;
-    padding-bottom: 2.5%;
-    padding-top: 2.5%;
-    background-color: #e8e8e8;
-    font-family: 'Ubuntu', sans-serif;
-    opacity: 0.75;
-}
-
 div {
     opacity: 0.75;
 }
 
 a.hoverWhite:hover {
-    color: #eeeeee;
+    color: red;
 }
 
 a.hoverWhite {
     color: #eeeeee;
+}
+
+a:hover {
+    text-decoration: none;
 }
