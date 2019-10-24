@@ -1,5 +1,5 @@
 header {
-    background-color: #eeeeee;
+    background-color: #F9F6F4;
     color: red;
     text-align: center;
     font-family: 'Trochut', sans-serif;
@@ -15,7 +15,7 @@ header {
 }
 
 #topButton {
-    color: #eeeeee;
+    color: #F9F6F4;
     background-color: red;
     border: none;
     outline: none;
@@ -86,7 +86,7 @@ body {
 
 #resume {
     padding: 10%;
-    background-color: #e2e2e2;
+    background-color: #e0e0e0;
 }
 
 
@@ -99,7 +99,7 @@ section {
     padding-right: 3.5%;
     padding-bottom: 2.5%;
     padding-top: 2.5%;
-    background-color: #e2e2e2;
+    background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
 }
 
