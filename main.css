@@ -33,12 +33,12 @@ footer {
 
 .alignLeft {
     float: left;
-    padding-left: 5.75%;
+    padding-left: 12%;
 }
 
 .alignRight {
     float: right;
-    padding-right: 5.75%;
+    padding-right: 12%;
     word-spacing: 0.25em;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 #aboutMe {
-    padding: 10% 10% 9% 10%;
+    padding: 10% 15% 9% 15%;
     background-color: #e8e8e8;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 #resume {
-    padding: 10%;
+    padding: 10% 15% 10% 15%;
     background-color: #e0e0e0;
 }
 
