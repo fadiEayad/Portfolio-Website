@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
     document.getElementById("headerID").style.fontSize = "20px";
-    document.getElementById("headerID").style.padding = "1%";
+    document.getElementById("headerID").style.padding = "1.5%";
   } else {
     document.getElementById("headerID").style.fontSize = "40px";
     document.getElementById("headerID").style.padding = "4%";

@@ -8,6 +8,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link href="main.css" rel="stylesheet"/>
         <script src="main.js" type="application/JavaScript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Fadi Ayad</title>
     </head>
     <body>
@@ -27,17 +28,17 @@
             <section id="aboutMe" class="row">
                 <h2 id="aboutMeHeader">ABOUT ME</h2>
                     <div id="aboutMeTextandPicture" class="row">
-                        <p id="aboutMeText" class="col-lg-9">I am a computer science student at the University of Houston and will be graduating in Spring 2021. I have worked with tools including C++, Java, Python, Javascript, HTML5, CSS, and Bootstrap. I am looking forward to learning more skills and eventually specializing in a particular set of skills. 
+                        <p id="aboutMeText" class="col-lg-10">I am a computer science student at the University of Houston and will be graduating in Spring 2021. I have worked with tools including C++, Java, Python, Javascript, HTML5, CSS, and Bootstrap. I am looking forward to learning more skills and eventually specializing in a particular set of skills. 
                             <br><br>Aside from programming, I like to chill at coffee shops or anywhere outdoors whenever the weather is nice. I also like playing football, or as some may call it, soccer. I have been playing the Beautiful Game since I was 3 y/o and will keep playing for as long as I can. 
                             <br><br>If you'd like to know more about me, you can find visit my <a href="https://www.linkedin.com/in/fadi-ayad/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/fadi3ayad/" target="_blank">Instagram</a>. You can also send me an <a href="mailto:feayad@gmail.com">email</a> if you would like to.</p>
-                        <p class="col-lg-3" id="picturePar"><img class="profilePicture" src="images/profile_picture.jpeg"/></p>
+                        <p class="col-lg-2" id="picturePar"><img class="profilePicture" src="images/profile_picture.jpeg"/></p>
                     </div>
             </section>
         </article>
 
         <article id="resume" class="row">
             <h2 id="resumeHeader">RÉSUMÉ</h2><br>
-            <section>
+            <section id="resumeText">
                 <h3>Education</h3>
                 <div>
                     <h5>COMPUTER SCIENCE, B.S. | MAY 2021 | UNIVERSITY OF HOUSTON</h5>
@@ -50,7 +51,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="resumeText">
                 <h3>Skills & Abilities</h3>
                 <div>
                     <ul>
@@ -65,43 +66,44 @@
                 </div>
             </section>
 
-            <section>
+            <section id="resumeText">
                 <h3>Projects</h3>
                 <div>
                     <h5>THIS PORTFOLIO WEBSITE | OCTOBER 2019</h5>
                     <ul>
                         <li>Used HTML5, CSS, JavaScript, and Bootstrap to create a responsive and dynamic portfolio website from scratch.</li>
-                        <li>The project can be accessed here: <a href="https://github.com/fadiEayad/Portfolio-Website" target="_blank">https://github.com/fadiEayad/Portfolio-Website</a></li>
+                        <li><a href="https://github.com/fadiEayad/Portfolio-Website" target="_blank">GitHub repo</a></li>
                     </ul>
                 </div>
                 <div>
                     <h5>CHEAP FLIGHTS FINDER WEB APP | OCTOBER 2018</h5>
                     <ul>
                         <li>Worked collaboratively with a team during a hackathon on developing a web application to find the top 20 cheapest flights in ascending order from and to user-specified locations. Developed algorithms used on the web application to read and display flight information and compare flight times.</li>
-                        <li>The project can be accessed here: <a href="https://github.com/fadiEayad/Cheap-Flights-Finder-Web-App" target="_blank">https://github.com/fadiEayad/Cheap-Flights-Finder-Web-App</a></li>
+                        <li><a href="https://github.com/fadiEayad/Cheap-Flights-Finder-Web-App" target="_blank">GitHub repo</a></li>
                     </ul>
                 </div>
                 <div>
                     <h5>DATABASE – C++ PROJECT | OCTOBER 2018</h5>
                     <ul>
                         <li>Developed a program that reads two files – one with input and another with commands – and prints out to an output file what the command asks if the command is one of the specific commands that this program supports.</li>
-                        <li>The project can be accessed here: <a href="https://github.com/fadiEayad/Database-C-Plus-Plus" target="_blank">https://github.com/fadiEayad/Database-C-Plus-Plus</a></li>
+                        <li><a href="https://github.com/fadiEayad/Database-C-Plus-Plus" target="_blank">GitHub repo</a></li>
                     </ul>
                 </div>
                 <div>
                     <h5>STACK-QUEUE BOOKSHOP | OCTOBER 2018</h5>
                     <ul>
                         <li> Developed a program utilizing queues and stacks resembling a bookshop buying and selling books. The program reads an input file and does what it asks - either buy or sell. It will then print to an output file based on the command(s).</li>
-                        <li>The project can be accessed here: <a href="https://github.com/fadiEayad/Stack-Queue-Bookshop" target="_blank">https://github.com/fadiEayad/Stack-Queue-Bookshop</a></li>
+                        <li><a href="https://github.com/fadiEayad/Stack-Queue-Bookshop" target="_blank">GitHub repo</a></li>
                     </ul>
                 </div>
             </section>
             <a href="Resume.pdf" target="_blank" id="resumeLink"><h7>CLICK HERE TO ACCESS DOWNLOADABLE RÉSUMÉ</h7></a>
         </article>
 
-        <footer class="container-fluid">
-            <p class="alignLeft">© 2019 Fadi Ayad.</p>
-            <p class="alignRight"><a href="https://www.linkedin.com/in/fadi-ayad/" target="_blank" class="hoverWhite">LinkedIn</a> / <a href="mailto:feayad@gmail.com" class="hoverWhite">Email</a> / <a href="https://www.instagram.com/fadi3ayad/" target="_blank" class="hoverWhite">Instagram</a></p>
+        <footer class="row">
+            <p id="footerLinks" class="col-lg-12"><a href="https://www.linkedin.com/in/fadi-ayad/" target="_blank" class="hoverWhite">LinkedIn</a> / <a href="mailto:feayad@gmail.com" class="hoverWhite">Email</a> / <a href="https://www.instagram.com/fadi3ayad/" target="_blank" class="hoverWhite">Instagram</a></p>
+            <hr/>
+            <p class="col-lg-12">© 2019 Fadi Ayad.</p>
         </footer>
     </body>
 </html>
