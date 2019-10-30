@@ -12,31 +12,22 @@
         <title>Fadi Ayad</title>
     </head>
     <body>
-        <header class="container-fluid">
-            <h1 id="headerID"><button onclick="topFunction()" id="topButton" title="Go to top">FADI<br>AYAD</button></h1>
-            <nav class="navbar sticky-top navbar-light navbar-nav">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <header class="row">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#aboutMe">About Me</a>
+                <a href="#">Resume</a>
+            </div>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#aboutMe">About Me</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#resumeHeader" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Résumé
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Education</a>
-                        <a class="dropdown-item" href="#">Skills & Abilities</a>
-                        <a class="dropdown-item" href="#">Projects</a>
-                    </div>
-                    </li>
-                </ul>
-                </div>
-            </nav>
+            <div class="column" id="ham">
+                <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+
+            <div class="column">
+                <h1 id="headerID"><button onclick="topFunction()" id="topButton" title="Go to top">FADI<br>AYAD</button></h1>
+            </div>
+
+            <div class="column"></div>
         </header>
 
         <!--<nav class="container-fluid">
