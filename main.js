@@ -6,7 +6,7 @@ function scrollFunction() {
     document.getElementById("headerID").style.padding = "1.5%";
   } else {
     document.getElementById("headerID").style.fontSize = "40px";
-    document.getElementById("headerID").style.padding = "4%";
+    document.getElementById("headerID").style.padding = "2%";
   }
 }
 
