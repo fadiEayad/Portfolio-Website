@@ -10,7 +10,7 @@ header {
 
 #headerID {
     padding: 4% 0% 4% 0%;
-    transition: 0.4s;
+    transition: 0.4s ease;
 }
 
 h1 {
@@ -22,13 +22,19 @@ h2 {
 }
 
 #topButton {
-    color: #F9F6F4;
-    background-color: red;
+    color: #b78111;
+    background-color: #f9f6f4;
     border: none;
     outline: none;
     border-radius: 10px;
     padding: 0.4% 0.6% 0.4% 0.6%;
     overflow-x: hidden;
+}
+
+#topButton:hover {
+    color: #f9f6f4;
+    background-color: #b78111;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 footer {
@@ -45,6 +51,32 @@ footer {
 body {
     background-color: #e8e8e8;
     font-size: 1.1rem;
+}
+
+.logos {
+    display:flex;
+    align-items:center;
+}
+
+#logosPar {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding-right: 15%;
+}
+
+.instagram {
+    width: 29px;
+    display: inline-block;
+    float: right;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.linkedin {
+    width: 32px;
+    display: inline-block;
+    float: right;
 }
 
 .profilePicture {
@@ -110,6 +142,7 @@ body {
     padding-top: 3%;
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
+    opacity: 0.7;
 }
 
 .row {
@@ -126,10 +159,6 @@ hr {
     width: 20rem;
 }
 
-div {
-    opacity: 0.75;
-}
-
 .col-lg-10 {
     padding: 0px;
 }
@@ -142,11 +171,11 @@ div {
     padding: 0px;
 }
 
-a.hoverWhite:hover {
-    color: red;
+a.hoverFooterLinks:hover {
+    color: #b78111;
 }
 
-a.hoverWhite {
+a.hoverFooterLinks {
     color: #eeeeee;
 }
 
@@ -172,17 +201,19 @@ a:hover {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.5s ease;
     padding-top: 60px;
+    opacity: 0.7;
+    white-space: nowrap;
 }
   
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 100%;
+    font-family: "Ubuntu", sans-serif;
     color: #818181;
     display: block;
-    transition: 0.3s;
 }
   
 .sidenav a:hover {
