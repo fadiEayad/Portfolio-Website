@@ -16,19 +16,19 @@
         <header class="row">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul class="navbar-nav mr-auto">
+                <ul id="plainUL">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Me</a>
+                      <a class="nav-link" href="#aboutMeNav">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Résumé
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#educationNav">Education</a>
+                            <a class="dropdown-item" href="#skillsNav">Skills & Abilities</a>
+                            <a class="dropdown-item" href="#projectsNav">Projects</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -65,6 +65,7 @@
         <article id="resume" class="row">
             <h2 id="resumeHeader">RÉSUMÉ</h2><br>
             <section id="resumeText">
+                <p id="educationNav"><br><br></p>
                 <h3>Education</h3>
                 <div>
                     <h5>COMPUTER SCIENCE, B.S. | MAY 2021 | UNIVERSITY OF HOUSTON</h5>
@@ -76,8 +77,9 @@
                     </ul>
                 </div>
             </section>
-
+            
             <section id="resumeText">
+                <p id="skillsNav"><br><br></p>
                 <h3>Skills & Abilities</h3>
                 <div>
                     <ul>
@@ -93,6 +95,7 @@
             </section>
 
             <section id="resumeText">
+                <p id="projectsNav"><br><br></p>
                 <h3>Projects</h3>
                 <div>
                     <h5>THIS PORTFOLIO WEBSITE | OCTOBER 2019</h5>

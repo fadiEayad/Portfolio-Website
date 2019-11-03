@@ -133,13 +133,8 @@ body {
     padding-top: 3%;
 }
 
-/*nav {
-    background-color: #222;
-}*/
-
 #resumeText {
     max-width: 100%;
-    padding-top: 3%;
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
     opacity: 0.7;
@@ -188,10 +183,6 @@ a:hover {
     padding: 0% 2%;
 }
 
-#mySidenav {
-    max-width: 50%;
-}
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -203,7 +194,7 @@ a:hover {
     overflow-x: hidden;
     transition: 0.5s ease;
     padding-top: 60px;
-    opacity: 0.7;
+    opacity: 0.9;
     white-space: nowrap;
 }
   
@@ -214,10 +205,15 @@ a:hover {
     font-family: "Ubuntu", sans-serif;
     color: #818181;
     display: block;
+    margin: 10px 0px;
 }
   
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #f9f6f4;
+}
+
+.dropdown-menu a:hover {
+    color: black;
 }
   
 .sidenav .closebtn {
@@ -238,15 +234,27 @@ a:hover {
     top: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    padding-left: 15%;
-  }
+    padding-left: 17%;
+}
+
+#plainUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu {
+    text-align: center;
+    margin-left: 15.5%;
+    background-color: #F9F6F4;
+}
 
 .column {
     float: left;
     width: 33.33%;
 }
   
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+}
