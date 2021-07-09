@@ -19,8 +19,10 @@ function topFunction() {
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("ham").style.opacity = 0;
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("ham").style.opacity = 100;
 }
