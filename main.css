@@ -72,14 +72,6 @@ body {
     padding-right: 15%;
 }
 
-.instagram {
-    width: 29px;
-    display: inline-block;
-    float: right;
-    margin-left: 16px;
-    margin-right: 16px;
-}
-
 .linkedin {
     width: 32px;
     display: inline-block;
@@ -290,4 +282,8 @@ a:hover {
 
 html {
     scroll-behavior: smooth;
+}
+
+#navbarDropdown:focus {
+    outline: none;
 }
